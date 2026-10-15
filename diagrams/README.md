@@ -1,0 +1,1 @@
+Diagram sources use Mermaid flowchart/classDiagram syntax. Open each .mmd file in Mermaid Live Editor or a Mermaid-compatible Markdown editor to render. Diagrams are based on the actual three Java classes. No database or ER diagram is included because the implementation uses local CSV files only.

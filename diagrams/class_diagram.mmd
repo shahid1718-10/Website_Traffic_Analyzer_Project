@@ -1,0 +1,22 @@
+classDiagram
+    class AnalyticsApp {
+      -Scanner SCANNER
+      +main(String[] args) void
+    }
+    class CsvReader {
+      +read(Path path) List~Map~String,String~~
+      -parseLine(String line) List~String~
+    }
+    class AnalyticsReport {
+      -List rows
+      -Map sourceVisits
+      -Map pageViews
+      -Map dailyVisits
+      +AnalyticsReport(List rows)
+      +print() void
+      -top(Map map, int limit) Map
+      -recommend() void
+    }
+    AnalyticsApp ..> CsvReader : reads CSV
+    AnalyticsApp ..> AnalyticsReport : builds report
+    AnalyticsReport : validates and aggregates data

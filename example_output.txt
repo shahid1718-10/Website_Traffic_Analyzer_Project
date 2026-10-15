@@ -1,0 +1,44 @@
+
+=== ANALYTICS SUMMARY ===
+Records analyzed: 15
+Total visits: 1310
+Total page views: 2091
+Unique visitors: 14
+
+--- Visits by traffic source ---
+direct: 195
+organic: 870
+referral: 245
+
+--- Top pages by page views ---
+/home: 955
+/blog/java: 720
+/services: 185
+/pricing: 157
+/contact: 74
+
+--- Daily visits ---
+2026-09-01: 245
+2026-09-02: 230
+2026-09-03: 320
+2026-09-04: 247
+2026-09-05: 268
+
+Total search impressions: 6260
+Total search clicks: 507
+Aggregate CTR: 8.10%
+
+--- Top queries by clicks ---
+java analytics project: 288 clicks
+website traffic analyzer: 105 clicks
+beginner java csv: 81 clicks
+social audience analytics: 33 clicks
+(not provided): 0 clicks
+Weighted average position: 5.00
+
+--- Basic recommendations ---
+- Largest visit source is 'organic' (870 visits); compare it with other channels before allocating effort.
+- Most viewed page is '/home'; review its content and make it easy to navigate.
+- Search CTR is at least 3% in this dataset; inspect high-impression queries for further opportunities.
+
+Note: output is based only on the selected CSV; sample data is illustrative.

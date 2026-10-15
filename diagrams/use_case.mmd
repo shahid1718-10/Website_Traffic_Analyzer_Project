@@ -1,0 +1,14 @@
+flowchart LR
+    U[Actor: Analyst]
+    U --> A([Load CSV dataset])
+    U --> B([View traffic totals])
+    U --> C([Compare traffic sources])
+    U --> D([View top pages and daily trend])
+    U --> E([View search metrics when available])
+    U --> F([Read recommendations])
+    A --> G[Analyzer application]
+    B --> G
+    C --> G
+    D --> G
+    E --> G
+    F --> G

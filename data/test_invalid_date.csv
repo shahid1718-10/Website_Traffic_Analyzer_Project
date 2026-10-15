@@ -1,0 +1,16 @@
+date,page,source,visits,page_views,visitor_id,query,impressions,clicks,average_position
+01/09/2026,/home,organic,120,210,V001,java analytics project,800,72,4.2
+01/09/2026,/blog/java,organic,85,140,V002,java analytics project,800,72,4.2
+01/09/2026,/pricing,direct,40,65,V003,,0,0,
+2026-09-02,/home,referral,95,160,V004,website traffic analyzer,500,35,6.1
+2026-09-02,/blog/java,organic,110,180,V001,beginner java csv,300,27,3.8
+2026-09-02,/contact,direct,25,30,V005,,0,0,
+2026-09-03,/home,organic,140,230,V006,website traffic analyzer,500,35,6.1
+2026-09-03,/services,referral,55,88,V007,social audience analytics,220,11,8.0
+2026-09-03,/blog/java,organic,125,195,V008,beginner java csv,300,27,3.8
+2026-09-04,/pricing,direct,60,92,V009,java analytics project,800,72,4.2
+2026-09-04,/home,organic,155,250,V010,website traffic analyzer,500,35,6.1
+2026-09-04,/contact,referral,32,44,V011,social audience analytics,220,11,8.0
+2026-09-05,/blog/java,organic,135,205,V012,beginner java csv,300,27,3.8
+2026-09-05,/home,direct,70,105,V013,java analytics project,800,72,4.2
+2026-09-05,/services,referral,63,97,V014,social audience analytics,220,11,8.0

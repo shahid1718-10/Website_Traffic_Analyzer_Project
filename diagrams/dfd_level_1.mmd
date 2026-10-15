@@ -1,0 +1,8 @@
+flowchart TD
+    U[User] -->|Select path| P1((1. Load CSV))
+    D[(CSV dataset)] -->|Rows and headers| P1
+    P1 -->|Parsed records| P2((2. Validate data))
+    P2 -->|Valid rows| P3((3. Aggregate metrics))
+    P3 -->|Totals, trends, rankings| P4((4. Generate report))
+    P4 -->|Console output| U
+    P2 -->|Error message| U

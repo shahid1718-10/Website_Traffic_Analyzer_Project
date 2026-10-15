@@ -1,0 +1,8 @@
+flowchart TD
+    U[Student / Analyst] -->|CSV path| A[AnalyticsApp]
+    A --> B[CsvReader]
+    B -->|List of row maps| C[AnalyticsReport]
+    C --> D[Validation and aggregation]
+    D --> E[Console report]
+    E --> U
+    F[(Local CSV file)] --> B

@@ -1,0 +1,13 @@
+flowchart TD
+    S([Start]) --> I[/Enter CSV path or use sample/]
+    I --> L[Read CSV]
+    L --> V{Valid file and columns?}
+    V -- No --> ER[Display error]
+    ER --> E([End])
+    V -- Yes --> C[Calculate traffic metrics]
+    C --> Q{Search columns available?}
+    Q -- Yes --> SM[Calculate clicks, impressions, CTR, query ranking]
+    Q -- No --> N[Mark search metrics unavailable]
+    SM --> R[Print report and recommendations]
+    N --> R
+    R --> E

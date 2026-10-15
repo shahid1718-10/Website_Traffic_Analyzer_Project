@@ -1,0 +1,14 @@
+flowchart TD
+    A([Start]) --> B[Choose input CSV]
+    B --> C[CsvReader parses headers and rows]
+    C --> D{Rows and schema valid?}
+    D -- No --> X[Show error and stop]
+    D -- Yes --> E[AnalyticsReport validates values]
+    E --> F[Aggregate visits, page views, source and date]
+    F --> G{Search fields present?}
+    G -- Yes --> H[Aggregate impressions and clicks; compute CTR]
+    G -- No --> I[Skip search calculations]
+    H --> J[Rank results and make simple recommendations]
+    I --> J
+    J --> K[Print console report]
+    K --> L([End])

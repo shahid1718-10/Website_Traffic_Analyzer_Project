@@ -1,0 +1,21 @@
+# Java compiled output
+out/
+*.class
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*credentials*
+*secret*
+*.pem
+*.key
+
+# Operating system files
+Thumbs.db
+Desktop.ini

@@ -1,0 +1,11 @@
+flowchart LR
+    A[CSV file] --> B[Parse CSV]
+    B --> C[Validate headers, dates, numeric values]
+    C --> D[Group visits by source and date]
+    C --> E[Group page views by page]
+    C --> F[If search fields exist: group query clicks and impressions]
+    F --> G[Aggregate CTR and weighted position]
+    D --> H[Sort and report]
+    E --> H
+    G --> H
+    H --> I[Console summary and recommendations]
